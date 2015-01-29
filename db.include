@@ -1,0 +1,10 @@
+<?php
+	$username = 'app_admin';
+	$password = '';
+	$PDO = new PDO('mysql:host=localhost;dbname=ApplicationStorage', $username, $password);
+
+	function print_variable($var) {
+		echo '<pre>'.print_r($var, true).'</pre>';
+	}
+
+?>

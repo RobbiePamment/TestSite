@@ -1,0 +1,8 @@
+<div id="header">
+	<ul>
+		<li><a href="index.php">Home</a></li>
+		<li><a href="tests.php">Tests</a></li>
+		<li><a href="users.php">Users</a></li>
+	</ul>
+<a href="logout.php">Logout</a>
+</div><br>
