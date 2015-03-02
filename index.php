@@ -1,6 +1,9 @@
 <?php
- 	//already confirmed login
-	//else redirect to login page
+	require 'adminLoggedIn.php';
+
+
+echo basename($_SERVER['PHP_SELF']);
+
 ?>
 <html>
 <head>

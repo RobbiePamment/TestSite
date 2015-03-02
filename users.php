@@ -1,4 +1,5 @@
 <?php 
+	require 'adminLoggedIn.php';
 	include 'db.include';
 
 	$sql = 'SELECT * FROM `Users`';
@@ -13,6 +14,9 @@
  </head>
  <body>
  	<?php include "menu.include"; ?>
+ 	<a href="createUser.php">Create new user</a>
+	<br>
+	<br>
  	<table>
 	<tr>
 		<th>Name</th>

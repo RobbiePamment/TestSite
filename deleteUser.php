@@ -1,4 +1,5 @@
 <?php
+	require 'adminLoggedIn.php';
 	#localhost/deleteUser.php?id=1
 
 	if (isset($_GET['id']) and !empty($_GET['id'])) {

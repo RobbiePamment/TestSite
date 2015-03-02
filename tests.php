@@ -1,4 +1,5 @@
 <?php
+	require 'adminLoggedIn.php';
 	include 'db.include';
 
 	$sql = 'SELECT * FROM `Tests`';
